@@ -11,6 +11,8 @@ spawn(function*() {
     yield delay(20);
   }
 
+  robot.typeString('done');
+
   return 0;
 })
 
