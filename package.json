@@ -1,0 +1,28 @@
+{
+  "name": "robotjstest",
+  "version": "1.0.0",
+  "description": "Robot JS Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarquas/robotjstest.git"
+  },
+  "keywords": [
+    "robotjs",
+    "nodejs",
+    "test"
+  ],
+  "author": "Taras Mykhailovych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarquas/robotjstest/issues"
+  },
+  "homepage": "https://github.com/tarquas/robotjstest#readme",
+  "dependencies": {
+    "esfunctional": "1.0.0",
+    "robotjs": "0.2.3"
+  }
+}
