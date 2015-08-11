@@ -16,4 +16,10 @@ spawn(function*() {
   return 0;
 })
 
-[thena] (process.exit);
+[thena] (process.exit)
+
+[catcha] ((err) => {
+  console.log('[FATAL ERROR] @', new Date().toISOString());
+  console.log(err && (err.stack || err));
+  process.exit(1);
+});
