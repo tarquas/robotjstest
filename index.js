@@ -6,9 +6,9 @@ let robot = require('robotjs');
 spawn(function*() {
   let pos = robot.getMousePos();
 
-  for (let i = 0; i < 100; i ++) {
-    robot.moveMouseSmooth(pos.x + Math.sin(i) * i, pos.y + Math.cos(i) * i);
-    yield delay(20);
+  for (let i = 0; i < 100; i += 0.2) {
+    robot.moveMouse(pos.x + Math.sin(i) * i, pos.y + Math.cos(i) * i);
+    yield delay(4);
   }
 
   robot.typeString('done');
