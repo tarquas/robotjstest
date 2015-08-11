@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tarquas/robotjstest#readme",
   "dependencies": {
-    "esfunctional": "1.0.0",
+    "esfunctional": "1.0.1",
     "robotjs": "0.2.3"
   }
 }
